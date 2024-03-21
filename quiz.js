@@ -25,25 +25,24 @@ else{
 }
 //Program 3: Leap Year Checker
 let leap = prompt("What is the current year? ")//asks the user for the year to set the leap variable
-let number = [1,2,3,4,5,6,7,8,9,10]
-if (leap === 1980 + 4*number){
+if (leap === 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024){
     console.log("It is currently a leap year!");
 }
 else{
    console.log("It is not a leap year. Come again later.");
 }
 //Program 4: Largest Number Finder
-let num1 = prompt("Give me a random number. ");
+let num1 = prompt("Give me a random number. ");//these three lines get the three numbers
 let num2 = prompt("Give me a random number. ");
 let num3 = prompt("Give me a random number. ");
 
 if (num1 > num2){
-    console.log("The largest number was" + num1 + ".")
+    console.log("The largest number was " + num1 + ".")// the lines below use greater than and less than to decide which is the highest number
 }
 
 else if (num2 > num1){
-    console.log("The largest number was" + num2 + ".")
+    console.log("The largest number was " + num2 + ".")
 }
 else if (num3 > num2){
-    console.log("The largest number was" + num3+ ".")
+    console.log("The largest number was " + num3+ ".")
 }
